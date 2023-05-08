@@ -7,11 +7,12 @@
     "node": "18.10.0"
   },
   "scripts": {
+    "test":"echo \"Error no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "start": "node server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
+    "start": "node server.js"
+   
   },
-  "author": "shahriar Sajeeb",
+  "author": "Venkat Patamsetti",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
